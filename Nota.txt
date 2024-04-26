@@ -1,0 +1,28 @@
+Projeto Frotas
+
+O Projeto apresenta um sistema multi-tenant de locação de veículos, onde várias empresas podem utilizar a mesma aplicação
+já que as informações/dados são trazidos de acordo com a empresas no qual o usuário (funcionário) está logado.
+
+Foram utilizadas as funcionalidades do Work With Plus e Genexus Access Manager para poder tanto agilizar a parte de CRUD
+e criação de telas quanto a parte de autenticação e autorização dos usuários.
+
+A tela primária é a de login GAMExampleLogin e a partir dela se trata o menu de backoffice ou frontend.
+
+Exemplos de usuários e suas devidas roles no sistema:
+
+Role: Gerente									--Acesso a tudo somente no FrontEnd, como um administrador. Obs: está vinculado a empresa "SouDev".
+Usuário: riodasostras
+senha: 123456
+
+
+Role: Consultor									--Acesso restrito, navega somente no modo "display". Obs: está vinculado a empresa "MWare-TI"
+Usuário: stella
+Senha: stella123
+
+
+Usuário default (Geral): admin					--Acesso ao backoffice do GAM e usado no Front apenas para registrar
+Senha: admin123									usuários de qualquer empresa presente no sistema.
+
+
+Usuário: marco									--Acesso a toda a aplicação, desde Back ao Front.
+Senha: marco@123

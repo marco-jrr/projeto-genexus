@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\bin\Release\net8.0\wptotalizador.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\wptotalizador.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\wptotalizador.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\wptotalizador.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\wptotalizador.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\refint\wptotalizador.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wptotalizador\obj\Release\net8.0\ref\wptotalizador.dll

@@ -1,0 +1,112 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>23</ObjId>
+<ObjName>PCadastraUsuario</ObjName>
+<ObjDesc>PCadastra Usuario</ObjDesc>
+<ObjPgmName>PCadastraUsuario</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuarionome</VarId>
+<VarName>&amp;UsuarioNome</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuarioemail</VarId>
+<VarName>&amp;UsuarioEmail</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuariosenha</VarId>
+<VarName>&amp;UsuarioSenha</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TUsuario</TableName>
+<Description>TUsuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TUsuario</TableName>
+<Description>TUsuario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TUsuario</TableName>
+<Description>TUsuario</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>UsuarioNome</AttriName>
+<Description>Usuario Nome</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>UsuarioEmail</AttriName>
+<Description>Usuario Email</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>UsuarioSenha</AttriName>
+<Description>Usuario Senha</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\bin\Release\net8.0\gamhome.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\gamhome.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\gamhome.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\gamhome.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\gamhome.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\refint\gamhome.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamhome\obj\Release\net8.0\ref\gamhome.dll

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus18Trial/</Path>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWTEmpresa</ObjName>
+      <ObjDesc>Work With Empresas</ObjDesc>
+      <ObjLink>wwtempresa.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWTUsuario</ObjName>
+      <ObjDesc>Work With Usuários</ObjDesc>
+      <ObjLink>wwtusuario.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWTRegistroPedido</ObjName>
+      <ObjDesc>Work With Registros de Locação de Veículos</ObjDesc>
+      <ObjLink>wwtregistropedido.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWTVeiculo</ObjName>
+      <ObjDesc>Work With Veículos</ObjDesc>
+      <ObjLink>wwtveiculo.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWTCliente</ObjName>
+      <ObjDesc>Work With Clientes</ObjDesc>
+      <ObjLink>wwtcliente.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMExampleLogin</ObjName>
+      <ObjDesc>Login</ObjDesc>
+      <ObjLink>gamexamplelogin.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMExampleNotAuthorized</ObjName>
+      <ObjDesc>Not Authorized</ObjDesc>
+      <ObjLink>gamexamplenotauthorized.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMHome</ObjName>
+      <ObjDesc>Home</ObjDesc>
+      <ObjLink>gamhome.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMExampleRegisterUser</ObjName>
+      <ObjDesc>Register user</ObjDesc>
+      <ObjLink>gamexampleregisteruser.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>GAMExampleSSOLogin</ObjName>
+      <ObjDesc>Single Sign-On</ObjDesc>
+      <ObjLink>gamexamplessologin.aspx</ObjLink>
+   </Object>
+</Objects>

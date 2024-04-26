@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\bin\Release\net8.0\gamexamplessologin.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\gamexamplessologin.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\gamexamplessologin.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\gamexamplessologin.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\gamexamplessologin.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\refint\gamexamplessologin.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplessologin\obj\Release\net8.0\ref\gamexamplessologin.dll

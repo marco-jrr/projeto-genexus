@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\bin\Release\net8.0\gamexamplenotauthorized.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\gamexamplenotauthorized.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\gamexamplenotauthorized.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\gamexamplenotauthorized.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\gamexamplenotauthorized.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\refint\gamexamplenotauthorized.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexamplenotauthorized\obj\Release\net8.0\ref\gamexamplenotauthorized.dll

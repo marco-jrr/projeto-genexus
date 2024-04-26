@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\bin\Release\net8.0\tregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\tregistropedido.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\tregistropedido.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\tregistropedido.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\tregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\refint\tregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tregistropedido\obj\Release\net8.0\ref\tregistropedido.dll

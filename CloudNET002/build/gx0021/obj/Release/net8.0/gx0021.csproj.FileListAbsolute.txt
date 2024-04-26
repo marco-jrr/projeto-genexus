@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\bin\Release\net8.0\gx0021.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\gx0021.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\gx0021.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\gx0021.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\gx0021.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\refint\gx0021.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gx0021\obj\Release\net8.0\ref\gx0021.dll

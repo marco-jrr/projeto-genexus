@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\bin\Release\net8.0\wwtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\wwtveiculo.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\wwtveiculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\wwtveiculo.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\wwtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\refint\wwtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtveiculo\obj\Release\net8.0\ref\wwtveiculo.dll

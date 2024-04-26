@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\bin\Release\net8.0\tempresatusuariowc.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\tempresatusuariowc.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\tempresatusuariowc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\tempresatusuariowc.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\tempresatusuariowc.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\refint\tempresatusuariowc.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tempresatusuariowc\obj\Release\net8.0\ref\tempresatusuariowc.dll

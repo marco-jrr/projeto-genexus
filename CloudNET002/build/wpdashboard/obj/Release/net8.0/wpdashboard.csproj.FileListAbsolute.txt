@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\bin\Release\net8.0\wpdashboard.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\wpdashboard.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\wpdashboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\wpdashboard.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\wpdashboard.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\refint\wpdashboard.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wpdashboard\obj\Release\net8.0\ref\wpdashboard.dll

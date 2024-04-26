@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\bin\Release\net8.0\tveiculogeneral.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\tveiculogeneral.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\tveiculogeneral.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\tveiculogeneral.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\tveiculogeneral.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\refint\tveiculogeneral.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tveiculogeneral\obj\Release\net8.0\ref\tveiculogeneral.dll

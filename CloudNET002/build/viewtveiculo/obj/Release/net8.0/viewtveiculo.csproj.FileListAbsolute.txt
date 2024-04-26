@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\bin\Release\net8.0\viewtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\viewtveiculo.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\viewtveiculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\viewtveiculo.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\viewtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\refint\viewtveiculo.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtveiculo\obj\Release\net8.0\ref\viewtveiculo.dll

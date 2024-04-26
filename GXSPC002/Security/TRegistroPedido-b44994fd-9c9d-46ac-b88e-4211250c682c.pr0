@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tregistropedido_FullControl",
+    "Description": "Registros de Locação de Veículos FullControl",
+    "ProgramName": "tregistropedido",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tregistropedido_Execute",
+    "Description": "Registros de Locação de Veículos",
+    "ProgramName": "tregistropedido",
+    "IsGXAutomatic": true,
+    "Parent": "tregistropedido_FullControl"
+  },
+  {
+    "Name": "tregistropedido_Insert",
+    "Description": "Registros de Locação de Veículos Insert",
+    "ProgramName": "tregistropedido",
+    "IsGXAutomatic": true,
+    "Parent": "tregistropedido_FullControl"
+  },
+  {
+    "Name": "tregistropedido_Delete",
+    "Description": "Registros de Locação de Veículos Delete",
+    "ProgramName": "tregistropedido",
+    "IsGXAutomatic": true,
+    "Parent": "tregistropedido_FullControl"
+  },
+  {
+    "Name": "tregistropedido_Update",
+    "Description": "Registros de Locação de Veículos Update",
+    "ProgramName": "tregistropedido",
+    "IsGXAutomatic": true,
+    "Parent": "tregistropedido_FullControl"
+  }
+]

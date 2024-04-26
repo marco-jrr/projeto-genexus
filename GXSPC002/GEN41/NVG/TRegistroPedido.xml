@@ -1,0 +1,405 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>TRegistroPedido</ObjName>
+<ObjDesc>Registros de Locação de Veículos</ObjDesc>
+<ObjPgmName>TRegistroPedido</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Registropedidoid</VarId>
+<VarName>&amp;RegistroPedidoId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>4</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>TEmpresa</TableName>
+<Description>TEmpresa</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>2</TableId>
+<TableName>TCliente</TableName>
+<Description>TCliente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ClienteNome</AttriName>
+<Description>Cliente Nome</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>TCliente</TableName>
+<Description>TCliente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ClienteNome</AttriName>
+<Description>Cliente Nome</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ClienteNome</AttriName>
+<Description>Cliente Nome</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>Destino</AttriName>
+<Description>Destino</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>DataRetorno</AttriName>
+<Description>Data Retorno</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>Destino</AttriName>
+<Description>Destino</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>DataRetorno</AttriName>
+<Description>Data Retorno</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>Gx0031</ObjName>
+<ObjPgmName>Gx0031</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>TCliente</TableName>
+<Description>TCliente</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>Gx0021</ObjName>
+<ObjPgmName>Gx0021</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>TEmpresa</TableName>
+<Description>TEmpresa</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>Gx0040</ObjName>
+<ObjPgmName>Gx0040</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

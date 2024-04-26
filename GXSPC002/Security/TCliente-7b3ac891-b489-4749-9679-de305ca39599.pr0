@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tcliente_FullControl",
+    "Description": "Clientes FullControl",
+    "ProgramName": "tcliente",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tcliente_Execute",
+    "Description": "Clientes",
+    "ProgramName": "tcliente",
+    "IsGXAutomatic": true,
+    "Parent": "tcliente_FullControl"
+  },
+  {
+    "Name": "tcliente_Insert",
+    "Description": "Clientes Insert",
+    "ProgramName": "tcliente",
+    "IsGXAutomatic": true,
+    "Parent": "tcliente_FullControl"
+  },
+  {
+    "Name": "tcliente_Delete",
+    "Description": "Clientes Delete",
+    "ProgramName": "tcliente",
+    "IsGXAutomatic": true,
+    "Parent": "tcliente_FullControl"
+  },
+  {
+    "Name": "tcliente_Update",
+    "Description": "Clientes Update",
+    "ProgramName": "tcliente",
+    "IsGXAutomatic": true,
+    "Parent": "tcliente_FullControl"
+  }
+]

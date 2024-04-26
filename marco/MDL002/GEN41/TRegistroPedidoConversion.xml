@@ -1,0 +1,397 @@
+
+<ReorgSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>TRegistroPedido needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>12</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>12</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>12</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>12</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>Destino</AttriName>
+<Description>Destino</Description>
+<TakesValueFrom>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>Destino</AttriName>
+<Description>Destino</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>20</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>ymdtod(</Token>
+<Sp></Sp>
+<Token>1753</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Token>)</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>DataRetorno</AttriName>
+<Description>Data Retorno</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>Null</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType>
+<AttriChangeType>nn</AttriChangeType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>DataHoraRetirada</AttriName>
+<Description>Data Hora Retirada</Description>
+<AttriType>
+<DataType>T</DataType>
+<Presicion>10</Presicion>
+<Scale>5</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>del</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>DataHoraRetorno</AttriName>
+<Description>Data Hora Retorno</Description>
+<AttriType>
+<DataType>T</DataType>
+<Presicion>10</Presicion>
+<Scale>5</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType>
+<AttriChangeType>del</AttriChangeType></Attribute></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ITREGISTROPEDIDO</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ITREGISTROPEDIDO1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ITREGISTROPEDIDO2</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>2</TableId>
+<TableName>TCliente</TableName>
+<Description>TCliente</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>ALTER TABLE [TRegistroPedido] ADD [DataRetirada] datetime NOT NULL CONSTRAINT DataRetiradaTRegistroPedido_DEFAULT DEFAULT convert( DATETIME, '17530101', 112 ), [DataRetorno] datetime NULL </Statement>
+<Statement>ALTER TABLE [TRegistroPedido] DROP CONSTRAINT DataRetiradaTRegistroPedido_DEFAULT</Statement>
+<Statement>ALTER TABLE [TRegistroPedido] DROP COLUMN [DataHoraRetirada], [DataHoraRetorno]</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Information>
+<InfoMsg>
+<MsgCode>nfo0003</MsgCode>
+<Message>
+<Token>The reorganization for this table makes the schema not backward compatible.</Token></Message>
+<AdditionalInfo>
+<Title>The following operations are not backward compatible:</Title>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute></Info>
+<Info>
+<Token>Delete</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>DataHoraRetirada</AttriName>
+<Description>Data Hora Retirada</Description></Attribute></Info>
+<Info>
+<Token>Delete</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>DataHoraRetorno</AttriName>
+<Description>Data Hora Retorno</Description></Attribute></Info></AdditionalInfo></InfoMsg></Information></ReorgSpec>

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tveiculo_FullControl",
+    "Description": "Veículos FullControl",
+    "ProgramName": "tveiculo",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tveiculo_Execute",
+    "Description": "Veículos",
+    "ProgramName": "tveiculo",
+    "IsGXAutomatic": true,
+    "Parent": "tveiculo_FullControl"
+  },
+  {
+    "Name": "tveiculo_Insert",
+    "Description": "Veículos Insert",
+    "ProgramName": "tveiculo",
+    "IsGXAutomatic": true,
+    "Parent": "tveiculo_FullControl"
+  },
+  {
+    "Name": "tveiculo_Delete",
+    "Description": "Veículos Delete",
+    "ProgramName": "tveiculo",
+    "IsGXAutomatic": true,
+    "Parent": "tveiculo_FullControl"
+  },
+  {
+    "Name": "tveiculo_Update",
+    "Description": "Veículos Update",
+    "ProgramName": "tveiculo",
+    "IsGXAutomatic": true,
+    "Parent": "tveiculo_FullControl"
+  }
+]

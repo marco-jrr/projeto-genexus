@@ -1,0 +1,124 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>22</ObjId>
+<ObjName>PSeqUsuario</ObjName>
+<ObjDesc>Id Sequenciamento de Usuários</ObjDesc>
+<ObjPgmName>PSeqUsuario</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description>
+<AttriOrder>Descending</AttriOrder></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>2</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Usuarioid</VarId>
+<VarName>&amp;UsuarioId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>FirstRows</Type>
+<MaxRows>1</MaxRows></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TUsuario</TableName>
+<Description>TUsuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description>
+<AttriOrder>Descending</AttriOrder></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TUsuario</TableName>
+<Description>TUsuario</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

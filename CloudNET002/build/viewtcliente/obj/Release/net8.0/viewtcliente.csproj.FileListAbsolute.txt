@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\bin\Release\net8.0\viewtcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\viewtcliente.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\viewtcliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\viewtcliente.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\viewtcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\refint\viewtcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtcliente\obj\Release\net8.0\ref\viewtcliente.dll

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tempresa_FullControl",
+    "Description": "Empresas FullControl",
+    "ProgramName": "tempresa",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tempresa_Execute",
+    "Description": "Empresas",
+    "ProgramName": "tempresa",
+    "IsGXAutomatic": true,
+    "Parent": "tempresa_FullControl"
+  },
+  {
+    "Name": "tempresa_Insert",
+    "Description": "Empresas Insert",
+    "ProgramName": "tempresa",
+    "IsGXAutomatic": true,
+    "Parent": "tempresa_FullControl"
+  },
+  {
+    "Name": "tempresa_Delete",
+    "Description": "Empresas Delete",
+    "ProgramName": "tempresa",
+    "IsGXAutomatic": true,
+    "Parent": "tempresa_FullControl"
+  },
+  {
+    "Name": "tempresa_Update",
+    "Description": "Empresas Update",
+    "ProgramName": "tempresa",
+    "IsGXAutomatic": true,
+    "Parent": "tempresa_FullControl"
+  }
+]

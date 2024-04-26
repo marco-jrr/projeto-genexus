@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="General.UI.SidebarItemsDP" id="1" type="DataProvider" IntegratedSecurityLevel="SecurityNone" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QQuantidadeCliente" id="2" type="Query" IntegratedSecurityLevel="SecurityNone" xmlns="qv">
+    <DefaultOutput type="OutputTypeCard" xmlns="qv" />
+  </Object>
+  <Object name="QQtdRegistrosPorData" id="3" type="Query" IntegratedSecurityLevel="SecurityNone" xmlns="qv">
+    <DefaultOutput type="OutputTypeChartColumn" xmlns="qv" />
+  </Object>
+  <Object name="Dashboard1_Filter1" id="0" type="Query" IntegratedSecurityLevel="SecurityNone" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+</Objects>

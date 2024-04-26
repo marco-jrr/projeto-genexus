@@ -1,0 +1,213 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>TVeiculo</ObjName>
+<ObjDesc>Veículos</ObjDesc>
+<ObjPgmName>TVeiculo</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Empresaid</VarId>
+<VarName>&amp;EmpresaId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Veiculoid</VarId>
+<VarName>&amp;VeiculoId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>3</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>TEmpresa</TableName>
+<Description>TEmpresa</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>VeiculoModelo</AttriName>
+<Description>Veiculo Modelo</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>VeiculoPlaca</AttriName>
+<Description>Veiculo Placa</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>VeiculoCor</AttriName>
+<Description>Veiculo Cor</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>VeiculoAno</AttriName>
+<Description>Veiculo Ano</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>VeiculoModelo</AttriName>
+<Description>Veiculo Modelo</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>VeiculoPlaca</AttriName>
+<Description>Veiculo Placa</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>VeiculoCor</AttriName>
+<Description>Veiculo Cor</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>VeiculoAno</AttriName>
+<Description>Veiculo Ano</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>TEmpresa</TableName>
+<Description>TEmpresa</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

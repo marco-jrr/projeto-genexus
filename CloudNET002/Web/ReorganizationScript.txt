@@ -1,0 +1,4 @@
+ALTER TABLE [TRegistroPedido] ADD [DataRetirada] datetime NOT NULL CONSTRAINT DataRetiradaTRegistroPedido_DEFAULT DEFAULT convert( DATETIME, '17530101', 112 ), [DataRetorno] datetime NULL;
+ALTER TABLE [TRegistroPedido] DROP CONSTRAINT DataRetiradaTRegistroPedido_DEFAULT;
+ALTER TABLE [TRegistroPedido] DROP COLUMN [DataHoraRetirada], [DataHoraRetorno];
+

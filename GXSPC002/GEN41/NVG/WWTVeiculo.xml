@@ -1,0 +1,367 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_9-182098</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>24</ObjId>
+<ObjName>WWTVeiculo</ObjName>
+<ObjDesc>Work With Veículos</ObjDesc>
+<ObjPgmName>WWTVeiculo</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>28</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0156</MsgCode>
+<Message>
+<Token>Event </Token>
+<Token>'MostraTotalizador'</Token>
+<Token> for control '</Token>
+<Token>Totalizador</Token>
+<Token>' is not defined.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>General.Security.NotAuthorized</ObjName>
+<ObjPgmName>General.Security.NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Refresh</EventName></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>0</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Idempresa</VarId>
+<VarName>&amp;IdEmpresa</VarName></Variable></Condition>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Veiculomarca</VarId>
+<VarName>&amp;VeiculoMarca</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Veiculomarca</VarId>
+<VarName>&amp;VeiculoMarca</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>TEmpresa</TableName>
+<Description>TEmpresa</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>28</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>@VeiculoMarca</AttriName>
+<Description>Veiculo Marca</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Idempresa</VarId>
+<VarName>&amp;IdEmpresa</VarName></Variable>
+<Icon>client</Icon></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TVeiculo</TableName>
+<Description>TVeiculo</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations>
+<Optimization>
+<Type>Aggregate</Type>
+<Expression>
+<Token>count(</Token>
+<Sp></Sp>
+<Token>*</Token>
+<Token>)</Token></Expression></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>33</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITREGISTROPEDIDO2</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Veiculoid</VarId>
+<VarName>&amp;VeiculoId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Veiculoid</VarId>
+<VarName>&amp;VeiculoId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Token>not</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>DataRetirada</AttriName>
+<Description>Data Retirada</Description></Attribute>
+<Token>.</Token>
+<Token>isnull(</Token>
+<Token>)</Token></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>TRegistroPedido</TableName>
+<Description>TRegistro Pedido</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>RegistroPedidoId</AttriName>
+<Description>Registro Pedido Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Level></ImplicitForEach></Event>
+<Event>
+<EventName>'DoInsert'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>TVeiculo</ObjName>
+<ObjPgmName>TVeiculo</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Expression>
+<Token>TrnMode</Token>
+<Token>.Insert</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Idempresa</VarId>
+<VarName>&amp;IdEmpresa</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Token>nullvalue(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>VeiculoId</AttriName>
+<Description>Veiculo Id</Description></Attribute>
+<Token>)</Token></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\bin\Release\net8.0\tcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\tcliente.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\tcliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\tcliente.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\tcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\refint\tcliente.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\tcliente\obj\Release\net8.0\ref\tcliente.dll

@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\bin\Release\net8.0\viewtregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\viewtregistropedido.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\viewtregistropedido.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\viewtregistropedido.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\viewtregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\refint\viewtregistropedido.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\viewtregistropedido\obj\Release\net8.0\ref\viewtregistropedido.dll

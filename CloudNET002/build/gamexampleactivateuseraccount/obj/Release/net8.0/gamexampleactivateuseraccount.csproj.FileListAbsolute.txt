@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\bin\Release\net8.0\gamexampleactivateuseraccount.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\gamexampleactivateuseraccount.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\gamexampleactivateuseraccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\gamexampleactivateuseraccount.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\gamexampleactivateuseraccount.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\refint\gamexampleactivateuseraccount.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\gamexampleactivateuseraccount\obj\Release\net8.0\ref\gamexampleactivateuseraccount.dll

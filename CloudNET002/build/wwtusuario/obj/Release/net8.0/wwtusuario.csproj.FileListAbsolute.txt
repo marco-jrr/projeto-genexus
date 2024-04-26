@@ -1,0 +1,7 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\bin\Release\net8.0\wwtusuario.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\wwtusuario.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\wwtusuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\wwtusuario.csproj.CoreCompileInputs.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\wwtusuario.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\refint\wwtusuario.dll
+C:\KB\ProjetoFrotas\CloudNET002\build\wwtusuario\obj\Release\net8.0\ref\wwtusuario.dll

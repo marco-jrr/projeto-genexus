@@ -1,0 +1,3 @@
+C:\KB\ProjetoFrotas\CloudNET002\build\wcdashboardtotalizadores\obj\Release\net8.0\wcdashboardtotalizadores.csproj.AssemblyReference.cache
+C:\KB\ProjetoFrotas\CloudNET002\build\wcdashboardtotalizadores\obj\Release\net8.0\wcdashboardtotalizadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\KB\ProjetoFrotas\CloudNET002\build\wcdashboardtotalizadores\obj\Release\net8.0\wcdashboardtotalizadores.csproj.CoreCompileInputs.cache

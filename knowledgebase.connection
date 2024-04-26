@@ -1,0 +1,11 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_ProjetoFrotas</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>(LocalDB)\MSSQLLocalDB</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KB\ProjetoFrotas</Directory>
+	<DataFile>GX_KB_ProjetoFrotas.mdf</DataFile>
+	<LogFile>GX_KB_ProjetoFrotas_log.ldf</LogFile>
+	<HostName>LAPTOP-CBU7PF6B</HostName>
+	<DetachOnClose>False</DetachOnClose>
+</ConnectionInformation>
